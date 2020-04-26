@@ -1,3 +1,4 @@
 # freezeme
-## filesystem backup utility, operated via CLI, saves files in AWS S3 Glacier. Inspired by git.
+
+filesystem backup utility, operated via CLI, saves files in AWS S3 Glacier. Inspired by git.
 
