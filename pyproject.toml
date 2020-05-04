@@ -6,6 +6,11 @@ authors = ["Raphael Gabbarelli <raphael@gabbarelli.it>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+click = "^7.1.2"
+boto3 = "^1.13.1"
+
+[tool.poetry.scripts]
+freezeme = 'freezeme.main:freezeme'
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
